@@ -46,7 +46,7 @@ body {
 .user {
     width: auto;
     height: 50%;
-    grid-row: 2;
+    grid-row: 3;
     display: block;
     justify-content: center;
 }
@@ -151,6 +151,11 @@ input:invalid {
 
 .btn > button:hover {
     background-color: rgb(165, 165, 165);
+}
+
+.btn > button > a {
+    text-decoration: none;
+    color: black;
 }
 
 .link {
