@@ -12,20 +12,32 @@
             </div>
 
             <div class="user">
-                <input type="text" id="user" size="10" minlength="3" maxlength="10" placeholder="Insert username here" required>
+                <input type="text" id="user" size="10" minlength="5" maxlength="15" placeholder="Insert username here" required>
+                <p style="color: rgb(128, 128, 128);" id="userRequirements">
+                    -Username must be 5 or more characters
+                </p>
             </div>
 
             <div class="password">
-                <input type="text" id="password" size="15" minlength="5" maxlength="15" placeholder="Insert password here" required>
+                <input type="text" id="password" size="15" minlength="8" maxlength="15" placeholder="Insert password here" required>
                 <!--<img src="hide.png" id="show_icon">-->
+                <ul>
+                    <li>Must contain 8 characters or more</li>
+                    <li>Must contain uppercase letters</li>
+                    <li>Must contain lowercase letters</li>
+                    <li>Must contain numbers</li>
+                    <li>Must contain special character</li>
+                </ul>
             </div>
 
-            <div class="btn">
-                <button id="button">SignUp</button>
-            </div>
+            <div class="btn_link">
+                <div class="btn">
+                    <button id="button">SignUp</button>
+                </div>
 
-            <div class="link">
-                <a href="signUp.html" target="_blank">Login Page</a>
+                <div class="link">
+                    <a href="signUp.html" target="_blank">Login Page</a>
+                </div>
             </div>
         </div>
     </div>
