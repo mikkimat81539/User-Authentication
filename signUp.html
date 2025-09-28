@@ -13,20 +13,21 @@
 
             <div class="user">
                 <input type="text" id="user" size="10" minlength="5" maxlength="15" placeholder="Insert username here" required>
-                <p style="color: rgb(128, 128, 128);" id="userRequirements">
-                    -Username must be 5 or more characters
-                </p>
+                
+                <ul>
+                    <li id="userRequirements">Username must be 5 or more characters</li>
+                </ul>
             </div>
 
             <div class="password">
                 <input type="text" id="password" size="15" minlength="8" maxlength="15" placeholder="Insert password here" required>
                 <!--<img src="hide.png" id="show_icon">-->
                 <ul>
-                    <li>Must contain 8 characters or more</li>
-                    <li>Must contain uppercase letters</li>
-                    <li>Must contain lowercase letters</li>
-                    <li>Must contain numbers</li>
-                    <li>Must contain special character</li>
+                    <li id="passwordChar">Must contain 8 characters or more</li>
+                    <li id="upperCase">Must contain uppercase letters</li>
+                    <li id="lowerCase">Must contain lowercase letters</li>
+                    <li id="numberRequirement">Must contain numbers</li>
+                    <li id="special">Must contain special character</li>
                 </ul>
             </div>
 

@@ -92,6 +92,26 @@ input:invalid {
     cursor: default;
 }
 
+.user > ul {
+    padding: 0;
+    cursor: default;
+}
+
+.password > ul {
+    padding: 0;
+    cursor: default;
+}
+
+.user > ul > li {
+    color: rgb(128, 128, 128);
+    list-style: none;
+}
+
+.password > ul > li {
+    color: rgb(128, 128, 128);
+    list-style: none;
+}
+
 /*
 .password > img {
     width: 25px;
