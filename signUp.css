@@ -103,12 +103,12 @@ input:invalid {
 }
 
 .user > ul > li {
-    color: rgb(128, 128, 128);
+    color: darkred; /*rgb(128, 128, 128)*/
     list-style: none;
 }
 
 .password > ul > li {
-    color: rgb(128, 128, 128);
+    color: darkred;
     list-style: none;
 }
 
